@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:padding="10dp" >
+
+    <Button
+        android:id="@+id/btn_back_to_contact" 
+        android:text="Back to Contacts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+    
+<LinearLayout android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:layout_above="@id/btn_back_to_contact">
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Details"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <View style="@style/Divider"/>
+    
+    <ImageView
+        android:id="@+id/iv_contact_photo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:src="@drawable/user_icon" />
+    
+    <View style="@style/Divider"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >     
+        
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/tv_contact_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="First and Last Name"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </TableRow>
+<View style="@style/Divider"/>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/tv_contact_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </TableRow>
+<View style="@style/Divider"/>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/tv_contact_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Email Address"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </TableRow>
+                
+    <View style="@style/Divider"/>        
+    </TableLayout>
+    <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Postal Address:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:padding="5dp" />        
+
+    <TextView
+        android:id="@+id/tv_contact_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Postal Address"
+        android:padding="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
+</RelativeLayout>

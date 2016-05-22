@@ -1,0 +1,18 @@
+<!--  main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    tools:context=".Main" >
+    <Button android:text="Add New Contact"
+        android:id="@+id/btn_add_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+    <ListView
+        android:id="@+id/lv_contact_list" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_add_contact"/>
+    
+</RelativeLayout>

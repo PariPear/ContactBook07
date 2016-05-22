@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\New folder\\ContactBook071\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\arrow.png",
+        "source": "E:\\New folder\\ContactBook071\\app\\src\\main\\res\\drawable-hdpi\\arrow.png"
+    },
+    {
+        "merged": "E:\\New folder\\ContactBook071\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\New folder\\ContactBook071\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\New folder\\ContactBook071\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\add_user_icon.png",
+        "source": "E:\\New folder\\ContactBook071\\app\\src\\main\\res\\drawable-hdpi\\add_user_icon.png"
+    },
+    {
+        "merged": "E:\\New folder\\ContactBook071\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\contact_item_selector.xml",
+        "source": "E:\\New folder\\ContactBook071\\app\\src\\main\\res\\drawable-hdpi\\contact_item_selector.xml"
+    },
+    {
+        "merged": "E:\\New folder\\ContactBook071\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\user_icon.png",
+        "source": "E:\\New folder\\ContactBook071\\app\\src\\main\\res\\drawable-hdpi\\user_icon.png"
+    }
+]

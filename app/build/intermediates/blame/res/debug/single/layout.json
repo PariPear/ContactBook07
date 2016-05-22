@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\New folder\\ContactBook071\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_details.xml",
+        "source": "E:\\New folder\\ContactBook071\\app\\src\\main\\res\\layout\\contact_details.xml"
+    },
+    {
+        "merged": "E:\\New folder\\ContactBook071\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_item.xml",
+        "source": "E:\\New folder\\ContactBook071\\app\\src\\main\\res\\layout\\contact_item.xml"
+    },
+    {
+        "merged": "E:\\New folder\\ContactBook071\\app\\build\\intermediates\\res\\merged\\debug\\layout\\new_contact.xml",
+        "source": "E:\\New folder\\ContactBook071\\app\\src\\main\\res\\layout\\new_contact.xml"
+    },
+    {
+        "merged": "E:\\New folder\\ContactBook071\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "E:\\New folder\\ContactBook071\\app\\src\\main\\res\\layout\\main.xml"
+    }
+]
